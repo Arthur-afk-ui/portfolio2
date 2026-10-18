@@ -1,0 +1,988 @@
+@media (min-width: 1700px) {
+  .hero-layout {
+    min-height: 680px;
+  }
+  .hero h1 {
+    font-size: 200px;
+  }
+  .hero-subtitle {
+    font-size: 41px;
+  }
+  .hero-description {
+    font-size: 16px;
+    max-width: 440px;
+  }
+  .hero-actions {
+    gap: 32px;
+  }
+  .button,
+  .text-link {
+    font-size: 14px;
+  }
+  .about-text {
+    font-size: 16px;
+  }
+  .skill-description p {
+    font-size: 16px;
+  }
+  .skill-code-window pre {
+    font-size: 13px;
+  }
+  .terminal-screen {
+    font-size: 13px;
+    height: 370px;
+  }
+}
+@media (max-width: 1100px) {
+  :root {
+    --gutter: 40px;
+  }
+  .nav {
+    gap: 22px;
+  }
+  .header-inner {
+    min-height: 80px;
+  }
+  .hero {
+    padding-top: 115px;
+  }
+  .hero-layout {
+    min-height: 545px;
+    gap: 25px;
+    padding-block: 35px 40px;
+  }
+  .hero-subtitle {
+    font-size: 29px;
+  }
+  .hero-description {
+    font-size: 13px;
+  }
+  .hero-actions {
+    gap: 20px;
+  }
+  .button {
+    padding: 12px 15px;
+    gap: 16px;
+    font-size: 11px;
+  }
+  .text-link {
+    font-size: 11px;
+  }
+  .hero-hello {
+    font-size: 16px;
+  }
+  .hero-bottom {
+    font-size: 11px;
+  }
+  .hero-bottom i {
+    padding-inline: 6px;
+  }
+  .section-space {
+    padding-block: 85px;
+  }
+  .section-marker {
+    margin-bottom: 44px;
+  }
+  .about {
+    padding-block: 75px 42px;
+  }
+  .about-layout,
+  .skills-layout,
+  .terminal-layout,
+  .contact-layout {
+    gap: 6vw;
+  }
+  .about-text {
+    font-size: 13px;
+  }
+  .about-text .large-copy {
+    font-size: 23px;
+  }
+  .interest-line > p {
+    font-size: 14px;
+  }
+  .interest-line i {
+    margin-inline: 12px;
+  }
+  .section-heading > p {
+    font-size: 12px;
+  }
+  .tech-card {
+    gap: 14px;
+    min-height: 81px;
+  }
+  .tech-name {
+    font-size: 29px;
+  }
+  .tech-card img {
+    height: 26px;
+    width: 26px;
+  }
+  .tech-index {
+    font-size: 8px;
+  }
+  .skill-description p {
+    font-size: 13px;
+  }
+  .skill-code-window pre {
+    font-size: 10px;
+    padding: 21px 17px;
+  }
+  .terminal-layout {
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 40px;
+  }
+  .terminal-copy h2 {
+    font-size: 44px;
+  }
+  .terminal-copy p {
+    font-size: 13px;
+  }
+  .terminal-screen {
+    font-size: 10px;
+    padding: 23px 18px;
+  }
+  .terminal-welcome p {
+    font-size: 10px;
+  }
+  .terminal-welcome .terminal-hint {
+    font-size: 9px;
+  }
+  .contact-heading h2 {
+    font-size: 53px;
+  }
+  .contact-item h3 {
+    font-size: 22px;
+  }
+  .footer > span {
+    font-size: 9px;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --gutter: 30px;
+  }
+  .nav {
+    gap: 17px;
+    font-size: 11px;
+  }
+  .nav .nav-contact {
+    margin-left: 3px;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .hero-layout {
+    gap: 18px;
+    min-height: 495px;
+  }
+  .hero h1 {
+    font-size: 13.6vw;
+  }
+  .hero-subtitle {
+    font-size: 25px;
+    letter-spacing: -0.9px;
+  }
+  .hero-description {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .hero-actions {
+    gap: 15px;
+  }
+  .hero-actions .button {
+    font-size: 10px;
+    padding: 12px;
+    gap: 12px;
+  }
+  .hero-actions .text-link {
+    font-size: 10px;
+  }
+  .hero-visual figcaption {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .hero-top {
+    font-size: 9px;
+  }
+  .hero-top > span:last-child {
+    font-size: 8px;
+  }
+  .hero-bottom {
+    font-size: 10px;
+    min-height: 68px;
+  }
+  .hero-bottom i {
+    padding-inline: 4px;
+  }
+  .live-time {
+    font-size: 9px;
+    gap: 7px;
+  }
+  .live-time > span:last-child {
+    font-size: 6px;
+  }
+  .section-space {
+    padding-block: 70px;
+  }
+  .section-marker {
+    font-size: 9px;
+    margin-bottom: 38px;
+  }
+  .section-marker > span:last-child {
+    font-size: 7px;
+  }
+  .about-layout {
+    gap: 35px;
+    grid-template-columns: 0.9fr 1.1fr;
+  }
+  .about-heading h2 {
+    font-size: 47px;
+  }
+  .about-aside {
+    font-size: 11px;
+  }
+  .about-text {
+    font-size: 12px;
+  }
+  .about-text .large-copy {
+    font-size: 21px;
+    letter-spacing: -0.6px;
+  }
+  .interest-line {
+    gap: 20px;
+  }
+  .interest-line > span {
+    font-size: 8px;
+  }
+  .interest-line > p {
+    font-size: 12px;
+  }
+  .interest-line i {
+    margin-inline: 8px;
+  }
+  .section-heading {
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+  .section-heading h2 {
+    font-size: 39px;
+  }
+  .section-heading > p {
+    font-size: 10px;
+    max-width: 190px;
+  }
+  .skills-layout {
+    gap: 30px;
+    grid-template-columns: 0.9fr 1.1fr;
+  }
+  .tech-card {
+    gap: 11px;
+    min-height: 78px;
+  }
+  .tech-name {
+    font-size: 25px;
+    letter-spacing: -0.9px;
+  }
+  .tech-index {
+    font-size: 7px;
+    margin-right: 0;
+    min-width: 12px;
+  }
+  .tech-card img {
+    width: 24px;
+    height: 24px;
+  }
+  .tech-arrow {
+    font-size: 22px;
+  }
+  .skill-overline {
+    font-size: 7px;
+    letter-spacing: 0.3px;
+  }
+  .skill-description h3 {
+    font-size: 31px;
+  }
+  .skill-description p {
+    font-size: 12px;
+    min-height: 100px;
+  }
+  .skill-tags {
+    gap: 6px;
+  }
+  .skill-tags > span {
+    font-size: 8px;
+    padding-right: 6px;
+  }
+  .sample-heading {
+    padding-inline: 15px;
+    font-size: 9px;
+  }
+  .skill-code-window pre {
+    font-size: 9px;
+    padding: 18px 15px;
+  }
+  .sample-output {
+    font-size: 9px;
+    padding-inline: 15px;
+  }
+  .terminal-layout {
+    gap: 30px;
+    grid-template-columns: 0.7fr 1.3fr;
+  }
+  .terminal-copy h2 {
+    font-size: 37px;
+  }
+  .terminal-copy p {
+    font-size: 12px;
+  }
+  .terminal-glyph {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .terminal-key-guide {
+    font-size: 8px;
+    gap: 15px;
+  }
+  .window-bar {
+    font-size: 9px;
+    padding-inline: 14px;
+  }
+  .terminal-screen {
+    font-size: 9px;
+    padding-inline: 16px;
+    height: 325px;
+  }
+  .terminal-welcome p {
+    font-size: 9px;
+  }
+  .terminal-welcome .terminal-hint {
+    font-size: 8px;
+  }
+  .terminal-footer {
+    font-size: 7px;
+    padding-inline: 13px;
+  }
+  .terminal-shortcuts {
+    padding-inline: 12px;
+    gap: 5px;
+  }
+  .terminal-shortcuts button {
+    font-size: 8px;
+    padding: 6px 8px;
+  }
+  .contact-layout {
+    gap: 35px;
+  }
+  .contact-heading h2 {
+    font-size: 43px;
+  }
+  .contact-heading p {
+    font-size: 12px;
+  }
+  .contact-value {
+    font-size: 10px;
+  }
+  .contact-item {
+    gap: 18px;
+  }
+  .contact-item h3 {
+    font-size: 21px;
+  }
+  .footer {
+    gap: 20px;
+  }
+  .footer > span {
+    font-size: 8px;
+  }
+  .back-top {
+    font-size: 9px;
+  }
+}
+@media (max-width: 650px) {
+  :root {
+    --gutter: 24px;
+  }
+  html {
+    scroll-padding-top: 88px;
+  }
+  .header-inner {
+    min-height: 72px;
+  }
+  .brand {
+    font-size: 22px;
+  }
+  .header.menu-open {
+    border-bottom-color: var(--line);
+  }
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 44px;
+    min-height: 44px;
+    z-index: 2;
+    padding: 10px;
+  }
+  .menu-toggle > span {
+    width: 23px;
+    height: 1px;
+    background: #e1e8f5;
+    transition: transform 0.2s;
+  }
+  .menu-toggle[aria-expanded="true"] > span:first-child {
+    transform: translateY(3.5px) rotate(45deg);
+  }
+  .menu-toggle[aria-expanded="true"] > span:last-child {
+    transform: translateY(-3.5px) rotate(-45deg);
+  }
+  .nav {
+    position: absolute;
+    inset: 72px 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px var(--gutter) 20px;
+    background: #0c0f14;
+    border-bottom: 1px solid var(--line);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+      opacity 0.2s,
+      transform 0.2s,
+      visibility 0.2s;
+  }
+  .menu-open .nav {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+  .nav > a {
+    font-size: 15px;
+    min-height: 49px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav .nav-contact {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav .nav-contact > span {
+    font-size: 22px;
+  }
+  .hero {
+    padding-top: 94px;
+  }
+  .hero-top {
+    font-size: 8px;
+    padding-block: 16px;
+    letter-spacing: 0.5px;
+  }
+  .hero-top > span:last-child {
+    font-size: 6px;
+    letter-spacing: 0.2px;
+  }
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    min-height: 0;
+    padding-block: 32px 26px;
+  }
+  .hero-hello {
+    font-size: 17px;
+    margin-bottom: 17px;
+  }
+  .hero h1 {
+    font-size: clamp(95px, 23.5vw, 150px);
+    letter-spacing: -0.075em;
+    line-height: 0.9;
+  }
+  .hero-subtitle {
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -1.2px;
+    margin-top: 28px;
+  }
+  .hero-description {
+    font-size: 13px;
+    max-width: 410px;
+    margin-top: 21px;
+  }
+  .hero-actions {
+    margin-top: 25px;
+    gap: 22px;
+    flex-wrap: nowrap;
+  }
+  .hero-actions .button {
+    font-size: 11px;
+    padding: 13px 15px;
+    gap: 20px;
+  }
+  .hero-actions .text-link {
+    font-size: 11px;
+  }
+  .hero-visual {
+    width: 100%;
+    max-width: 460px;
+    margin: 14px auto 0;
+  }
+  .hero-visual figcaption {
+    font-size: 10px;
+    margin-top: 7px;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  .hero-visual figcaption > span:last-child {
+    font-size: 20px;
+  }
+  .hero-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 11px;
+    padding-block: 18px;
+    min-height: 0;
+    font-size: 10px;
+  }
+  .hero-bottom i {
+    padding-inline: 5px;
+  }
+  .live-time {
+    font-size: 10px;
+    gap: 9px;
+  }
+  .live-time > span:last-child {
+    font-size: 7px;
+    margin-left: 2px;
+  }
+  .section-space {
+    padding-block: 60px;
+  }
+  .section-marker {
+    font-size: 9px;
+    letter-spacing: 0.6px;
+    margin-bottom: 35px;
+  }
+  .section-marker > span:last-child {
+    font-size: 6px;
+    letter-spacing: 0.3px;
+  }
+  .about {
+    padding-block: 55px 30px;
+  }
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .about-heading h2 {
+    font-size: clamp(48px, 12vw, 67px);
+    letter-spacing: -2.8px;
+    line-height: 1.04;
+  }
+  .about-aside {
+    display: none;
+  }
+  .about-text {
+    font-size: 13px;
+    line-height: 1.9;
+    max-width: 500px;
+  }
+  .about-text .large-copy {
+    font-size: 23px;
+    letter-spacing: -0.8px;
+    margin-bottom: 22px;
+  }
+  .profile-code {
+    margin-top: 26px;
+  }
+  .profile-code summary {
+    font-size: 12px;
+    min-height: 56px;
+  }
+  .editor-body {
+    font-size: 9px;
+  }
+  .line-number {
+    font-size: 8px;
+    width: 33px;
+    padding-right: 12px;
+  }
+  .code-file {
+    font-size: 9px;
+  }
+  .interest-line {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .interest-line > span {
+    font-size: 9px;
+  }
+  .interest-line > p {
+    font-size: 13px;
+    line-height: 1.9;
+    max-width: 340px;
+  }
+  .interest-line i {
+    margin-inline: 8px;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 32px;
+  }
+  .section-heading h2 {
+    font-size: clamp(37px, 9.2vw, 52px);
+    letter-spacing: -1.8px;
+  }
+  .section-heading > p {
+    font-size: 12px;
+    max-width: none;
+    margin-top: 20px;
+  }
+  .skills-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .technology-list {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5px;
+    border-top: 0;
+  }
+  .tech-card {
+    padding: 12px 2px 15px;
+    min-height: 85px;
+    gap: 9px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid var(--line);
+  }
+  .tech-card img {
+    height: 27px;
+    width: 27px;
+    opacity: 1;
+  }
+  .tech-index,
+  .tech-arrow {
+    display: none;
+  }
+  .tech-name {
+    font-size: 12px;
+    letter-spacing: -0.4px;
+  }
+  .tech-card[data-tech="javascript"] .tech-name {
+    font-size: 10px;
+    letter-spacing: -0.3px;
+  }
+  .tech-card.selected {
+    border-bottom: 2px solid var(--blue);
+  }
+  .tech-card.selected::after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: var(--blue);
+  }
+  .skill-description {
+    padding-top: 0;
+  }
+  .skill-overline {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+  .skill-description h3 {
+    font-size: 33px;
+    margin-block: 17px 14px;
+  }
+  .skill-description p {
+    font-size: 13px;
+    min-height: 80px;
+  }
+  .skill-tags {
+    margin-top: 17px;
+    gap: 9px;
+  }
+  .skill-tags > span {
+    font-size: 9px;
+    padding-right: 9px;
+  }
+  .skill-code-window {
+    margin-top: 23px;
+  }
+  .sample-heading {
+    font-size: 10px;
+    padding: 12px 17px;
+  }
+  .sample-heading > span:last-child {
+    font-size: 7px;
+  }
+  .skill-code-window pre {
+    font-size: 10px;
+    line-height: 1.9;
+    padding: 20px 17px;
+    min-height: 168px;
+  }
+  .sample-output {
+    font-size: 9px;
+    line-height: 1.8;
+    padding: 11px 17px;
+  }
+  .terminal-layout {
+    grid-template-columns: 1fr;
+    gap: 29px;
+  }
+  .terminal-copy h2 {
+    font-size: 46px;
+  }
+  .terminal-glyph {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .terminal-copy p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .terminal-copy .terminal-instruction {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .terminal-key-guide {
+    margin-top: 20px;
+    font-size: 9px;
+    gap: 24px;
+  }
+  .terminal-window {
+    margin-inline: -5px;
+  }
+  .window-bar {
+    font-size: 9px;
+    min-height: 43px;
+    padding-inline: 14px;
+  }
+  .terminal-local {
+    font-size: 7px;
+  }
+  .terminal-screen {
+    height: 327px;
+    font-size: 10px;
+    padding: 24px 15px;
+  }
+  .terminal-welcome p {
+    font-size: 10px;
+  }
+  .terminal-welcome .terminal-hint {
+    font-size: 9px;
+  }
+  .terminal-screen form {
+    gap: 5px;
+  }
+  .terminal-submit {
+    min-width: 30px;
+    min-height: 35px;
+  }
+  .terminal-footer {
+    font-size: 7px;
+    padding-inline: 12px;
+    gap: 10px;
+  }
+  .terminal-shortcuts {
+    gap: 6px;
+    padding: 10px 12px;
+  }
+  .terminal-shortcuts button {
+    font-size: 8px;
+    min-height: 35px;
+    padding: 6px 9px;
+  }
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 33px;
+  }
+  .contact-heading h2 {
+    font-size: 51px;
+    letter-spacing: -2.6px;
+  }
+  .contact-heading p {
+    font-size: 13px;
+    margin-top: 22px;
+  }
+  .contact-item {
+    gap: 21px;
+    min-height: 97px;
+    padding-block: 20px;
+  }
+  .contact-item h3 {
+    font-size: 25px;
+  }
+  .contact-number {
+    font-size: 9px;
+  }
+  .contact-value {
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  .contact-note {
+    font-size: 11px;
+    margin-top: 18px;
+  }
+  .footer {
+    padding-block: 24px;
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  .footer-brand {
+    font-size: 27px;
+  }
+  .footer > span {
+    order: 3;
+    flex-basis: 100%;
+    font-size: 9px;
+  }
+  .back-top {
+    font-size: 11px;
+  }
+  .back-top > span {
+    font-size: 20px;
+  }
+  .toast {
+    font-size: 11px;
+    padding: 12px 16px;
+  }
+}
+@media (max-width: 360px) {
+  :root {
+    --gutter: 20px;
+  }
+  .hero h1 {
+    font-size: 24vw;
+  }
+  .hero-top {
+    font-size: 7px;
+  }
+  .hero-top > span:last-child {
+    font-size: 5px;
+  }
+  .hero-subtitle {
+    font-size: 27px;
+  }
+  .hero-actions {
+    gap: 16px;
+  }
+  .hero-actions .button {
+    font-size: 10px;
+    padding: 12px;
+    gap: 16px;
+  }
+  .hero-actions .text-link {
+    font-size: 10px;
+  }
+  .hero-description {
+    font-size: 12px;
+  }
+  .hero-visual figcaption {
+    font-size: 9px;
+  }
+  .hero-bottom {
+    font-size: 9px;
+  }
+  .hero-bottom i {
+    padding-inline: 4px;
+  }
+  .section-marker > span:last-child {
+    font-size: 5px;
+  }
+  .about-heading h2 {
+    font-size: 45px;
+  }
+  .profile-code summary {
+    font-size: 11px;
+  }
+  .tech-name {
+    font-size: 11px;
+  }
+  .tech-card[data-tech="javascript"] .tech-name {
+    font-size: 9px;
+  }
+  .tech-card img {
+    width: 25px;
+    height: 25px;
+  }
+  .skill-code-window pre {
+    font-size: 9px;
+    padding-inline: 14px;
+  }
+  .terminal-screen {
+    font-size: 9px;
+    padding-inline: 12px;
+  }
+  .terminal-welcome p {
+    font-size: 9px;
+  }
+  .terminal-welcome .terminal-hint {
+    font-size: 8px;
+  }
+  .terminal-shortcuts button {
+    font-size: 7px;
+    padding-inline: 8px;
+  }
+  .contact-heading h2 {
+    font-size: 46px;
+  }
+  .contact-value {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-top > span:last-child,
+  .section-marker > span:last-child {
+    display: none;
+  }
+  .hero-visual figcaption {
+    font-size: 11px;
+  }
+  .live-time > span:last-child {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .portrait-stage {
+    height: 600px;
+  }
+}
+@media (max-width: 800px) and (min-width: 651px) {
+  .portrait-stage {
+    height: 400px;
+  }
+}
+@media (max-width: 650px) {
+  .hero-visual.portrait-visual {
+    max-width: 430px;
+    margin-top: 28px;
+  }
+  .portrait-stage {
+    height: clamp(330px, 95vw, 420px);
+  }
+  .portrait-stage::after {
+    right: 3%;
+    width: 2px;
+  }
+  .portrait-visual figcaption {
+    justify-content: center;
+    margin-top: -8px;
+    font-size: 11px;
+  }
+}

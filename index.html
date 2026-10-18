@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0c0f14" />
+    <meta
+      name="description"
+      content="Sou o Arthur, tenho 14 anos e estudo Java, JavaScript, Python e desenvolvimento web. Também gosto da parte técnica dos servidores de Minecraft."
+    />
+    <meta property="og:title" content="Arthur — Programação & Minecraft" />
+    <meta
+      property="og:description"
+      content="Um pouco sobre mim, o que eu estudo e meu interesse por programação e Minecraft."
+    />
+    <meta property="og:type" content="website" />
+    <title>Arthur — Programação & Minecraft</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <script defer src="main.js"></script>
+    <script defer src="terminal.js"></script>
+    <script defer src="animations.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="header" id="header">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Arthur.dev, início"
+          >arthur<span>.dev</span><i aria-hidden="true"></i
+        ></a>
+        <nav class="nav" id="navigation" aria-label="Navegação principal">
+          <a href="#inicio" class="active" aria-current="location">Início</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#habilidades">Tecnologias</a>
+          <a href="#terminal">Terminal</a>
+          <a href="#contato" class="nav-contact">Contato <span aria-hidden="true">↗</span></a>
+        </nav>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <span>PROGRAMAÇÃO & MINECRAFT</span><span>PORTFÓLIO PESSOAL / 01</span>
+        </div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow hero-hello">Oi, eu sou o</p>
+            <h1 id="hero-title">Arthur<span>.</span></h1>
+            <p class="hero-subtitle">14 anos. Muitas ideias.<br />E vontade de programar.</p>
+            <p class="hero-description">
+              Estudo Java, JavaScript, Python e desenvolvimento web. Também gosto de mexer com
+              plugins e servidores de Minecraft.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#sobre"
+                >Um pouco sobre mim <span aria-hidden="true">↘</span></a
+              ><a class="text-link" href="#terminal"
+                >Abrir terminal <span aria-hidden="true">↵</span></a
+              >
+            </div>
+          </div>
+          <figure class="hero-visual portrait-visual">
+            <div class="portrait-stage">
+              <img
+                class="portrait-photo"
+                src="arthur-portrait.png"
+                alt="Foto de Arthur"
+                width="488"
+                height="760"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+            <figcaption><span>Arthur · Programação & Minecraft</span></figcaption>
+          </figure>
+        </div>
+        <div class="hero-bottom">
+          <span>Java <i>·</i> JavaScript <i>·</i> Python <i>·</i> HTML & CSS</span>
+          <div class="live-time">
+            <span class="clock-dot" aria-hidden="true"></span><time id="clock">--:--:--</time
+            ><span>HORÁRIO DE BRASÍLIA</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-shell section-space" id="sobre" aria-labelledby="about-title">
+        <div class="section-marker"><span>01 — SOBRE MIM</span><span>POR TRÁS DO NOME</span></div>
+        <div class="about-layout">
+          <div class="about-heading reveal">
+            <h2 id="about-title">Do site ao<br />servidor de<br /><span>Minecraft.</span></h2>
+            <p class="about-aside">Gosto de entender<br />como as coisas funcionam.</p>
+          </div>
+          <div class="about-text reveal">
+            <p class="large-copy">Tenho 14 anos e gosto de programar.</p>
+            <p>
+              Estudo Java, JavaScript, Python e HTML. Uso CSS para trabalhar no visual das páginas e
+              gosto de experimentar novas formas de fazer as coisas.
+            </p>
+            <p>
+              No Minecraft, o que mais me interessa é a parte técnica: criar plugins, configurar
+              servidores e pensar em sistemas para o jogo. Também quero aprender mais sobre
+              otimização, segurança e administração de servidores.
+            </p>
+            <p>
+              Ainda tenho muito para aprender. Este espaço é um jeito de mostrar o que me interessa
+              e as tecnologias que estou estudando.
+            </p>
+            <details class="profile-code">
+              <summary>
+                <span><b aria-hidden="true">{ }</b> Meu perfil em JavaScript</span
+                ><span class="details-plus" aria-hidden="true">+</span>
+              </summary>
+              <div class="code-editor">
+                <div class="code-file">arthur.js <span>JavaScript</span></div>
+                <div
+                  class="editor-body"
+                  id="hero-code"
+                  aria-label="Objeto JavaScript com informações de Arthur"
+                >
+                  <pre><code>const arthur = {
+  name: "Arthur",
+  age: 14,
+  role: "Developer",
+  languages: [
+    "Java",
+    "JavaScript",
+    "Python",
+    "HTML"
+  ],
+  interests: [
+    "Software Development",
+    "Minecraft Plugins",
+    "Web Development"
+  ],
+  passion: "Creating with code"
+};</code></pre>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="interest-line">
+          <span>O que me interessa</span>
+          <p>Sites & interfaces <i>/</i> Plugins Minecraft <i>/</i> Automações com Python</p>
+        </div>
+      </section>
+
+      <section
+        class="skills section-shell section-space"
+        id="habilidades"
+        aria-labelledby="skills-title"
+      >
+        <div class="section-marker">
+          <span>02 — TECNOLOGIAS</span><span>UM POUCO DO QUE EU ESTUDO</span>
+        </div>
+        <div class="section-heading reveal">
+          <h2 id="skills-title">
+            Cada linguagem,<br />uma possibilidade<span class="blue">.</span>
+          </h2>
+          <p>Escolha uma tecnologia para ver<br />como eu uso e um exemplo de código.</p>
+        </div>
+        <div class="skills-layout">
+          <div
+            class="technology-list reveal"
+            role="tablist"
+            aria-label="Tecnologias"
+            aria-orientation="vertical"
+          >
+            <button
+              class="tech-card selected"
+              type="button"
+              role="tab"
+              id="tab-java"
+              aria-selected="true"
+              aria-controls="skill-panel"
+              data-tech="java"
+            >
+              <span class="tech-index">01</span
+              ><img src="java.svg" width="30" height="30" alt="" /><span
+                class="tech-name"
+                >Java</span
+              ><span class="tech-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button
+              class="tech-card"
+              type="button"
+              role="tab"
+              id="tab-javascript"
+              aria-selected="false"
+              aria-controls="skill-panel"
+              tabindex="-1"
+              data-tech="javascript"
+            >
+              <span class="tech-index">02</span
+              ><img src="javascript.svg" width="30" height="30" alt="" /><span
+                class="tech-name"
+                >JavaScript</span
+              ><span class="tech-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button
+              class="tech-card"
+              type="button"
+              role="tab"
+              id="tab-python"
+              aria-selected="false"
+              aria-controls="skill-panel"
+              tabindex="-1"
+              data-tech="python"
+            >
+              <span class="tech-index">03</span
+              ><img src="python.svg" width="30" height="30" alt="" /><span
+                class="tech-name"
+                >Python</span
+              ><span class="tech-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button
+              class="tech-card"
+              type="button"
+              role="tab"
+              id="tab-html"
+              aria-selected="false"
+              aria-controls="skill-panel"
+              tabindex="-1"
+              data-tech="html"
+            >
+              <span class="tech-index">04</span
+              ><img src="html.svg" width="30" height="30" alt="" /><span
+                class="tech-name"
+                >HTML5</span
+              ><span class="tech-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button
+              class="tech-card"
+              type="button"
+              role="tab"
+              id="tab-css"
+              aria-selected="false"
+              aria-controls="skill-panel"
+              tabindex="-1"
+              data-tech="css"
+            >
+              <span class="tech-index">05</span
+              ><img src="css.svg" width="30" height="30" alt="" /><span
+                class="tech-name"
+                >CSS3</span
+              ><span class="tech-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div
+            class="skill-panel reveal"
+            id="skill-panel"
+            role="tabpanel"
+            aria-labelledby="tab-java"
+            tabindex="0"
+          >
+            <div class="skill-description">
+              <div class="skill-overline">
+                <span id="skill-category">APLICAÇÕES E PLUGINS</span
+                ><span class="skill-number" aria-hidden="true">01</span>
+              </div>
+              <h3 id="skill-title">Java<span class="blue">.</span></h3>
+              <p id="skill-description">
+                Uso e estudo Java para desenvolver aplicações e plugins de Minecraft, com APIs como
+                Paper e Spigot.
+              </p>
+              <div class="skill-tags" id="skill-tags">
+                <span>Java</span><span>Paper API</span><span>Spigot API</span>
+              </div>
+            </div>
+            <div class="skill-code-window">
+              <div class="sample-heading">
+                <span id="skill-filename">HelloArthur.java</span><span>EXEMPLO</span>
+              </div>
+              <pre id="skill-code"><code>public class HelloArthur {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}</code></pre>
+              <div class="sample-output">
+                <span aria-hidden="true">↳</span><span id="skill-output">Olá, mundo!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="terminal-section section-shell section-space"
+        id="terminal"
+        aria-labelledby="terminal-title"
+      >
+        <div class="section-marker"><span>03 — TERMINAL</span><span>DÁ PARA INTERAGIR</span></div>
+        <div class="terminal-layout">
+          <div class="terminal-copy reveal">
+            <span class="terminal-glyph" aria-hidden="true">&gt;_</span>
+            <h2 id="terminal-title">Pode mexer<span class="blue">.</span></h2>
+            <p>Um terminal para conhecer<br />um pouco mais sobre mim.</p>
+            <p class="terminal-instruction">
+              Comece com <kbd>help</kbd>.<br />Ou tente <kbd>minecraft</kbd>.
+            </p>
+            <div class="terminal-key-guide">
+              <span><kbd>↑</kbd><kbd>↓</kbd> histórico</span><span><kbd>Tab</kbd> completar</span>
+            </div>
+          </div>
+          <div class="terminal-window reveal">
+            <div class="window-bar">
+              <span class="window-label"
+                ><span aria-hidden="true">&gt;_</span> arthur@portfolio:~</span
+              ><span class="terminal-local">LOCAL</span>
+            </div>
+            <div
+              class="terminal-screen"
+              id="terminal-screen"
+              role="region"
+              aria-label="Terminal interativo simulado"
+              tabindex="0"
+            >
+              <div
+                class="terminal-output"
+                id="terminal-output"
+                role="log"
+                aria-label="Respostas do terminal"
+                aria-live="polite"
+                aria-relevant="additions"
+              >
+                <div class="terminal-welcome">
+                  <p>Olá! Pode explorar.</p>
+                  <p>Digite <span class="terminal-highlight">help</span> para ver os comandos.</p>
+                  <p class="terminal-hint">Dica: existe um comando chamado arthur.</p>
+                </div>
+              </div>
+              <form id="terminal-form" autocomplete="off">
+                <label for="terminal-input" class="prompt"
+                  ><span>arthur</span>@portfolio<span>:~$</span></label
+                ><input
+                  id="terminal-input"
+                  name="command"
+                  type="text"
+                  autocomplete="off"
+                  autocapitalize="none"
+                  spellcheck="false"
+                  aria-label="Comando do terminal"
+                  aria-describedby="terminal-help"
+                  maxlength="120"
+                /><button class="terminal-submit" type="submit" aria-label="Executar comando">
+                  ↵
+                </button>
+              </form>
+            </div>
+            <div class="terminal-footer">
+              <span id="terminal-help">Comandos simulados no navegador</span><span>JavaScript</span>
+            </div>
+            <div class="terminal-shortcuts" aria-label="Comandos rápidos">
+              <button type="button" data-command="help">help</button
+              ><button type="button" data-command="about">about</button
+              ><button type="button" data-command="skills">skills</button
+              ><button type="button" data-command="minecraft">minecraft</button
+              ><button type="button" data-command="clear">clear</button>
+            </div>
+          </div>
+        </div>
+        <noscript
+          ><p>
+            O terminal precisa de JavaScript. As informações sobre mim também estão nas outras
+            seções.
+          </p></noscript
+        >
+      </section>
+
+      <section
+        class="contact section-shell section-space"
+        id="contato"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-marker"><span>04 — CONTATO</span><span>ATÉ A PRÓXIMA LINHA</span></div>
+        <div class="contact-layout">
+          <div class="contact-heading reveal">
+            <h2 id="contact-title">Vamos trocar<br />uma ideia<span class="blue">?</span></h2>
+            <p>Sobre programação, Minecraft<br />ou alguma coisa que você está criando.</p>
+          </div>
+          <div class="contact-right reveal">
+            <div class="contact-links">
+              <div class="contact-item" id="contact-github">
+                <span class="contact-number">01</span>
+                <div>
+                  <h3>GitHub</h3>
+                  <span class="contact-value">Perfil ainda não adicionado</span>
+                </div>
+                <span class="contact-state">—</span>
+              </div>
+              <div class="contact-item" id="contact-discord">
+                <span class="contact-number">02</span>
+                <div>
+                  <h3>Discord</h3>
+                  <span class="contact-value">Usuário ainda não adicionado</span>
+                </div>
+                <span class="contact-state">—</span>
+              </div>
+              <div class="contact-item" id="contact-email">
+                <span class="contact-number">03</span>
+                <div>
+                  <h3>E-mail</h3>
+                  <span class="contact-value">Endereço ainda não adicionado</span>
+                </div>
+                <button
+                  class="copy-email"
+                  id="copy-email"
+                  type="button"
+                  disabled
+                  aria-label="Copiar e-mail, disponível quando um endereço for configurado"
+                  title="E-mail ainda não configurado"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="8" y="8" width="12" height="12" rx="1" />
+                    <path d="M16 8V4H4v12h4" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <p class="contact-note">Meus contatos serão adicionados aqui.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section-shell">
+      <a class="footer-brand" href="#inicio">arthur<span>.</span></a
+      ><span>© <span id="year">2026</span> Arthur. Feito com HTML, CSS e JavaScript.</span
+      ><a class="back-top" href="#inicio" aria-label="Voltar ao início"
+        >Voltar ao topo <span aria-hidden="true">↑</span></a
+      >
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
